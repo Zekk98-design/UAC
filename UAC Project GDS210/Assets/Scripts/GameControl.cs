@@ -119,7 +119,7 @@ public class GameControl : MonoBehaviour
                 }
             }
         
-        if (potionCount < 1)
+        if (potionCount < 0)
             potionCount = 0;
             {
                 switch (potionCount)
@@ -270,7 +270,7 @@ public class GameControl : MonoBehaviour
                 }
             }
         
-        if (potionCount > 1)
+        if (potionCount > 0)
         {
             if (Input.GetKeyDown("e"))
             {
