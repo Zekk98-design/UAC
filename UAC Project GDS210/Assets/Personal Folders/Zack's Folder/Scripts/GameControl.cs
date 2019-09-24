@@ -272,7 +272,7 @@ public class GameControl : MonoBehaviour
         
         if (potionCount > 0)
         {
-            if (Input.GetKeyDown("e"))
+            if (Input.GetKeyDown("1"))
             {
                 GameControl.potionCount -= 1;
                 GameControl.health +=1;

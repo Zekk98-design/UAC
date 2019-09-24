@@ -63,6 +63,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Personal Folders\Ken's Folder\SceneSequence.cs" />
+    <Compile Include="Assets\Personal Folders\Zack's Folder\Scripts\GameControl.cs" />
+    <Compile Include="Assets\Personal Folders\Zack's Folder\Scripts\HealthLoss.cs" />
+    <Compile Include="Assets\Personal Folders\Zack's Folder\Scripts\PotionCount.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\CameraControls.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\IcoBumpin.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Misc\HueCube.cs" />
@@ -77,9 +80,6 @@
     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
-    <Compile Include="Assets\Scripts\GameControl.cs" />
-    <Compile Include="Assets\Scripts\HealthLoss.cs" />
-    <Compile Include="Assets\Scripts\PotionCount.cs" />
     <Compile Include="Assets\Unity Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs" />
     <Compile Include="Assets\Unity Assets\Standard Assets\2D\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Unity Assets\Standard Assets\2D\Scripts\Platformer2DUserControl.cs" />
