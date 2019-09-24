@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Personal Folders/Ken's Folder/Cutscene (prototype).unity
+- path: Assets/Personal Folders/Zack's Folder/Scenes/Archetecture build scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
