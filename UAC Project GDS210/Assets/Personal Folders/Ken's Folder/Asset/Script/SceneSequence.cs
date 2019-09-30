@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SceneSequence : MonoBehaviour
 {
-    //variables
+    //Variables
     public GameObject Cam1;
     public GameObject Cam2;
     public GameObject Cam3;
@@ -17,11 +17,17 @@ public class SceneSequence : MonoBehaviour
 
     IEnumerator TheSequence()
     {
-        yield return new WaitForSeconds(4);
+        yield return new WaitForSeconds(2);
         Cam2.SetActive(true);
         Cam1.SetActive(false);
-        yield return new WaitForSeconds(4);
+        yield return new WaitForSeconds(2);
         Cam3.SetActive(true);
         Cam2.SetActive(false);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
     }
 }
