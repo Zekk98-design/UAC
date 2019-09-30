@@ -488,7 +488,11 @@
       <HintPath>C:/Users/kpham14/Documents/GitHub/UAC/UAC Project GDS210/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
+<<<<<<< HEAD
       <HintPath>C:/Users/kpham14/Documents/GitHub/UAC/UAC Project GDS210/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+=======
+      <HintPath>C:/Users/zdonaldson/Documents/GitHub/UAC/UAC Project GDS210/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+>>>>>>> 1e04ea89443a20c1de2588d442deab382595fc57
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
