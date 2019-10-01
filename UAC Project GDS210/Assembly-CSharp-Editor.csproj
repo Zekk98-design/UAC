@@ -336,12 +336,6 @@
     <Reference Include="UnityEngine.XRModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
     </Reference>
-    <Reference Include="Assembly-CSharp-firstpass">
-      <HintPath>C:/Users/zdonaldson/Documents/GitHub/UAC/UAC Project GDS210/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll</HintPath>
-    </Reference>
-    <Reference Include="Assembly-CSharp-Editor-firstpass">
-      <HintPath>C:/Users/zdonaldson/Documents/GitHub/UAC/UAC Project GDS210/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.VR">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.2f1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
     </Reference>
