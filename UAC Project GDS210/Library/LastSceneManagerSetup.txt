@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Personal Folders/Ken's Folder/Cutscene (prototype).unity
-=======
-- path: Assets/Personal Folders/Cooper's Folder/Scenes/SpireMap.unity
->>>>>>> f076b05d8ae236981b035d4e862f847e021cada4
+- path: Assets/Personal Folders/Zack's Folder/Scenes/Archetecture build scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
