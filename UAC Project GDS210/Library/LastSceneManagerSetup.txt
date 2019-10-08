@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Personal Folders/Zack's Folder/Scenes/Main menu.unity
-=======
-- path: Assets/Personal Folders/Ken's Folder/Cutscene beta.unity
->>>>>>> e037316678bb4c1eacdcc101c57a70dcc9756f69
+- path: Assets/Personal Folders/Zack's Folder/Scenes/Archetecture build scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
