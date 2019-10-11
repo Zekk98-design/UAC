@@ -125,9 +125,10 @@
     <Compile Include="Assets\Personal Folders\Cooper's Folder\Imported\BOXOPHOBIC\Utils\PropertyDrawers\BRangeOptionsAttribute.cs" />
     <Compile Include="Assets\Personal Folders\Cooper's Folder\Imported\BOXOPHOBIC\Utils\PropertyDrawers\BRangeSimpleAttribute.cs" />
     <Compile Include="Assets\Personal Folders\Cooper's Folder\LoadNew.cs" />
+    <Compile Include="Assets\Personal Folders\Cooper's Folder\PauseMenu.cs" />
     <Compile Include="Assets\Personal Folders\Cooper's Folder\Quit.cs" />
     <Compile Include="Assets\Personal Folders\Cooper's Folder\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
-    <Compile Include="Assets\Personal Folders\Cooper's Folder\SampleScenes\Menu\Scripts\PauseMenu.cs" />
+    <Compile Include="Assets\Personal Folders\Cooper's Folder\SampleScenes\Menu\Scripts\PauseMenu2.cs" />
     <Compile Include="Assets\Personal Folders\Cooper's Folder\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
     <Compile Include="Assets\Personal Folders\Cooper's Folder\SampleScenes\Scripts\CameraSwitch.cs" />
     <Compile Include="Assets\Personal Folders\Cooper's Folder\SampleScenes\Scripts\LevelReset.cs" />
