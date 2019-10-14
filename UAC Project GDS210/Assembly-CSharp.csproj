@@ -271,6 +271,7 @@
     <None Include="Assets\Personal Folders\Cooper's Folder\Imported\Racing Flag Animated\shaders\vertex_animation_shader.shader" />
     <None Include="Assets\Unity Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
     <None Include="Assets\Unity Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+    <None Include="Assets\Personal Folders\Zack's Folder\Boss Animations\SkeletonData\animations.txt" />
     <None Include="Assets\Personal Folders\Cooper's Folder\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <None Include="Assets\Unity Assets\Standard Assets\Vehicles\Car\CarGuidelines.txt" />
     <None Include="Assets\Unity Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
