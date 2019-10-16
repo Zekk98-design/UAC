@@ -227,6 +227,7 @@
      <None Include="Assets\Unity Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Unity Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
      <None Include="Assets\Unity Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
+     <None Include="Assets\ErbGameArt\Procedural fire\Shaders\FireSphere.shader" />
      <None Include="Assets\Unity Assets\Standard Assets\Environment\Water (Basic)\DO_NOT_WORK_IN_VR.txt" />
      <None Include="Assets\Personal Folders\Cooper&apos;s Folder\Imported\BOXOPHOBIC\Utils\Shaders\StandardLit Prototype Terrain.shader" />
      <None Include="Assets\Unity Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
