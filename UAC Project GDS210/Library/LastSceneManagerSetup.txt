@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Personal Folders/Cooper's Folder/Scenes/SpireMap.unity
+=======
+- path: Assets/Personal Folders/Zack's Folder/Scenes/Main menu.unity
+>>>>>>> 2732c541646344002795b315ca71d3eb98a5e45c
   isLoaded: 1
   isActive: 1
   isSubScene: 0
