@@ -47,7 +47,11 @@ MonoBehaviour:
   m_MinSize: {x: 681, y: 344}
   m_MaxSize: {x: 12006, y: 8044}
   vertical: 0
+<<<<<<< HEAD
   controlID: 75
+=======
+  controlID: 145
+>>>>>>> 95cc6272f85db59d279bcb96ff916ecb4d74d910
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -388,10 +392,17 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 75}
     m_SelectedIDs: 724c0000
     m_LastClickedID: 19570
     m_ExpandedIDs: 00000000fa44000096470000d2490000984b0000664c0000684c0000ee520000185400006254000080570000725900001e5a00003e5a00009c9c00009e9c0000a09c0000a29c0000a49c0000a69c0000a89c0000aa9c0000ac9c000000ca9a3b
+=======
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 28340000
+    m_LastClickedID: 13352
+    m_ExpandedIDs: 00000000c8360000e23a0000b03b000056420000d4450000ee460000b0490000288d00002a8d00002c8d00002e8d0000308d0000328d0000348d0000368d0000388d000000ca9a3b
+>>>>>>> 95cc6272f85db59d279bcb96ff916ecb4d74d910
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -419,7 +430,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 0000000096470000984b0000664c0000ee520000805700003e5a00009c9c00009e9c0000a09c0000a29c0000a49c0000a69c0000a89c0000aa9c0000ac9c0000
+=======
+    m_ExpandedIDs: 00000000c8360000e23a0000b03b000056420000d4450000ee460000b0490000288d00002a8d00002c8d00002e8d0000308d0000328d0000348d0000368d0000388d0000
+>>>>>>> 95cc6272f85db59d279bcb96ff916ecb4d74d910
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -540,9 +555,15 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: c0b30100
       m_LastClickedID: 111552
       m_ExpandedIDs: 5443ffff8843ffff2445ffffee46ffff2247ffffc048ffff345affff8089ffff70bfffff52c1ffffb4c7ffffacedffff5aa50000eca5000076af0100f2af010028b10100
+=======
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 70fbffff
+>>>>>>> 95cc6272f85db59d279bcb96ff916ecb4d74d910
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: Camera (Main menu)
@@ -602,9 +623,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 45.48608, y: 37.126625, z: 117.03864}
     speed: 2
     m_Value: {x: 45.48608, y: 37.126625, z: 117.03864}
+=======
+    m_Target: {x: 381.88782, y: 1.7685825, z: 126.105194}
+    speed: 2
+    m_Value: {x: 381.88782, y: 1.7685825, z: 126.105194}
+>>>>>>> 95cc6272f85db59d279bcb96ff916ecb4d74d910
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -633,6 +660,7 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: -0.028233381, y: 0.9685469, z: -0.21130343, w: -0.1290602}
     speed: 2
     m_Value: {x: -0.028230757, y: 0.96845686, z: -0.21128379, w: -0.1290482}
@@ -640,6 +668,15 @@ MonoBehaviour:
     m_Target: 22
     speed: 2
     m_Value: 22
+=======
+    m_Target: {x: -0.21630709, y: 0.5915836, z: -0.1686367, w: -0.75828034}
+    speed: 2
+    m_Value: {x: -0.21489759, y: 0.5929177, z: -0.16805574, w: -0.7576443}
+  m_Size:
+    m_Target: 15.184579
+    speed: 2
+    m_Value: 15.900083
+>>>>>>> 95cc6272f85db59d279bcb96ff916ecb4d74d910
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -702,10 +739,17 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
     m_HBaseRangeMin: -693
     m_HBaseRangeMax: 693
     m_VBaseRangeMin: -333.33334
     m_VBaseRangeMax: 333.33334
+=======
+    m_HBaseRangeMin: -1039.5
+    m_HBaseRangeMax: 1039.5
+    m_VBaseRangeMin: -500
+    m_VBaseRangeMax: 500
+>>>>>>> 95cc6272f85db59d279bcb96ff916ecb4d74d910
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -741,7 +785,11 @@ MonoBehaviour:
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
+<<<<<<< HEAD
   m_LastWindowPixelSize: {x: 3118.5, y: 1525.5}
+=======
+  m_LastWindowPixelSize: {x: 2079, y: 1017}
+>>>>>>> 95cc6272f85db59d279bcb96ff916ecb4d74d910
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
