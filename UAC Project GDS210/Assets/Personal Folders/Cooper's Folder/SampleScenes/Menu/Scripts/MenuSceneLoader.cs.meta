@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:UAC Project GDS210/Assets/Personal Folders/Cooper's Folder/SampleScenes/Menu/Scripts/MenuSceneLoader.cs.meta
 guid: a07f7c5d41e44d24ebde8348e59e9cef
+=======
+guid: 94a737ea0b3a4a345b3ea9e8c9845128
+>>>>>>> 35c9a7fe215e542f55081dc85c239e8fb290bebd:UAC Project GDS210/Assets/Personal Folders/Cooper's Folder/Scripts/DeathCollider.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
