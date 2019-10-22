@@ -1,17 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - BeginGame
-    - Cinemachine.CinemachineBrain
-    - Cinemachine.CinemachineComposer
-    - Cinemachine.CinemachinePipeline
-    - Cinemachine.CinemachineTransposer
-    - Cinemachine.CinemachineVirtualCamera
-    - Cinemachine.Timeline.CinemachineShot
-    - Cinemachine.Timeline.CinemachineTrack
-    - ExitOnClick
-    - MainMenu
-    - UnityStandardAssets.Characters.FirstPerson.FirstPersonController
+    - ChoiceScript
+    - SceneSequence
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -19,11 +10,14 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.TileDragAndDropManager
     Unity.Timeline.Editor.dll:
+    - UnityEditor.Timeline.AnimationPlayableAssetInspector
+    - UnityEditor.Timeline.AnimationTrackInspector
     - UnityEditor.Timeline.EditorClip
     - UnityEditor.Timeline.SequenceHierarchy
     - UnityEditor.Timeline.TimelineAssetViewModel
     - UnityEditor.Timeline.TimelineWindow
     Unity.Timeline.dll:
+    - UnityEngine.Timeline.AnimationPlayableAsset
     - UnityEngine.Timeline.AnimationTrack
     - UnityEngine.Timeline.MarkerTrack
     - UnityEngine.Timeline.TimelineAsset
@@ -39,7 +33,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Personal Folders/Zack's Folder/Scenes/Main menu.unity:
+    Assets/Personal Folders/Ken's Folder/Cutscene (prototype).unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -58,19 +52,11 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 54
-      Script: {instanceID: 0}
     - Class: 64
-      Script: {instanceID: 0}
-    - Class: 65
       Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
-      Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
@@ -84,57 +70,62 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
+    - Class: 111
+      Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9882}
-    - Class: 114
-      Script: {instanceID: 10030}
-    - Class: 114
-      Script: {instanceID: 10146}
-    - Class: 114
-      Script: {instanceID: 10210}
-    - Class: 114
-      Script: {instanceID: 10494}
-    - Class: 114
-      Script: {instanceID: 10840}
-    - Class: 114
-      Script: {instanceID: 10886}
-    - Class: 114
-      Script: {instanceID: 11170}
-    - Class: 114
-      Script: {instanceID: 11226}
-    - Class: 114
-      Script: {instanceID: 11362}
-    - Class: 114
-      Script: {instanceID: 11364}
-    - Class: 114
-      Script: {instanceID: 11518}
-    - Class: 114
-      Script: {instanceID: 11690}
-    - Class: 114
-      Script: {instanceID: 11766}
-    - Class: 114
-      Script: {instanceID: 11914}
-    - Class: 114
-      Script: {instanceID: 12010}
-    - Class: 114
-      Script: {instanceID: 12030}
-    - Class: 114
-      Script: {instanceID: 12314}
-    - Class: 114
-      Script: {instanceID: 12556}
-    - Class: 114
-      Script: {instanceID: 12852}
-    - Class: 114
-      Script: {instanceID: 12890}
+      Script: {instanceID: 10710}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 124
-      Script: {instanceID: 0}
-    - Class: 128
       Script: {instanceID: 0}
     - Class: 137
       Script: {instanceID: 0}
-    - Class: 143
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    Assets/Personal Folders/Ken's Folder/Prototype (core mechanic).unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9866}
+    - Class: 114
+      Script: {instanceID: 10130}
+    - Class: 114
+      Script: {instanceID: 10192}
+    - Class: 114
+      Script: {instanceID: 10810}
+    - Class: 114
+      Script: {instanceID: 11466}
+    - Class: 114
+      Script: {instanceID: 11976}
+    - Class: 114
+      Script: {instanceID: 12242}
+    - Class: 114
+      Script: {instanceID: 12816}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -145,10 +136,6 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
-      Script: {instanceID: 0}
-    - Class: 258
-      Script: {instanceID: 0}
-    - Class: 320
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -229,6 +216,18 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityStandardAssets.Effects
     className: ExplosionPhysicsForce
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SceneAndURLLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 7e6b022cd7f1c29976ca8b1a21d06265
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UnityStandardAssets.SceneUtils
+    className: PlaceTargetWithMouse
   - hash:
       serializedVersion: 2
       Hash: f00ca901b734f71f99db8f25241154c4
@@ -405,18 +404,6 @@ ScriptsOnlyBuild:
     className: ProBuilderMesh
   - hash:
       serializedVersion: 2
-      Hash: 544e9fb59d9e6b79a7fb5758e693710d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PauseMenu
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: LoadNew
-  - hash:
-      serializedVersion: 2
       Hash: bd3cf68c8964d3c66d1c43f4f98508c9
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -475,12 +462,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: Cinemachine
     className: CinemachineFreeLook
-  - hash:
-      serializedVersion: 2
-      Hash: 78c58a32f4dc8b42840e0e82f4b598f6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DeathCollider
   - hash:
       serializedVersion: 2
       Hash: 32f6d1d5a09e5c94c633a32edd3e6836
@@ -577,12 +558,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityStandardAssets.Utility
     className: DragRigidbody
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ReloadScene
   - hash:
       serializedVersion: 2
       Hash: b8a5e8091ab0b8861d2add371082c5e0
@@ -687,12 +662,6 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
-      Hash: 01b11005c6f2567ef9e355ccfb716d93
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: BeginGame
-  - hash:
-      serializedVersion: 2
       Hash: c88c4199b288356ec3eb2f0d85abc619
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityStandardAssets.CrossPlatformInput
@@ -741,6 +710,12 @@ ScriptsOnlyBuild:
     className: AutoMoveAndRotate
   - hash:
       serializedVersion: 2
+      Hash: 6044529815c0850359298e2f87d67d0b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UnityStandardAssets.SceneUtils
+    className: SlowMoButton
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -751,12 +726,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityStandardAssets.Utility
     className: SmoothFollow
-  - hash:
-      serializedVersion: 2
-      Hash: cf8908108eb5f43a6a0a9177eba010b3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: HeightFogOverride
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -799,12 +768,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityStandardAssets.Vehicles.Aeroplane
     className: LandingGear
-  - hash:
-      serializedVersion: 2
-      Hash: 672b41042bbcfe3478f84e06391cc41e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ExitOnClick
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -903,6 +866,12 @@ ScriptsOnlyBuild:
     className: CinemachineTargetGroup
   - hash:
       serializedVersion: 2
+      Hash: 296fe27bf6a67ad114f808be4eaa08cc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UnityStandardAssets.SceneUtils
+    className: ParticleSceneControls
+  - hash:
+      serializedVersion: 2
       Hash: 8216ca00094987954bcf22fd5ccf9bfd
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityStandardAssets.Cameras
@@ -937,12 +906,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.ProBuilder.dll
     namespaceName: UnityEngine.ProBuilder
     className: ColorPalette
-  - hash:
-      serializedVersion: 2
-      Hash: 4574cd4f1140e540b1676ce6455ad45f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MainMenu
   - hash:
       serializedVersion: 2
       Hash: 97a580c59cad3623a01bbf5fb2d7fa93
@@ -981,10 +944,10 @@ ScriptsOnlyBuild:
     className: CinemachineBlendListCamera
   - hash:
       serializedVersion: 2
-      Hash: 9d1b5cde2af29b6a0870e025b98b3e53
+      Hash: b54f8be68f6e3169d543383799d00e18
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: HeightFogPerObject
+    className: CameraSwitch
   - hash:
       serializedVersion: 2
       Hash: 12e64d607873da15ad3f833620350d51
@@ -1009,12 +972,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityStandardAssets.Water
     className: Water
-  - hash:
-      serializedVersion: 2
-      Hash: 2d4e2c8d4c291e2c050db0c4b50b6ec1
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: HeightFogGlobal
   - hash:
       serializedVersion: 2
       Hash: 5ad4aa237d47ac2bab17bacb672edf7a
@@ -1123,12 +1080,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityStandardAssets.Utility
     className: DynamicShadowSettings
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Quit
   - hash:
       serializedVersion: 2
       Hash: 428923bc6e394f67d7e43c7fdc2bc412
@@ -1263,10 +1214,22 @@ ScriptsOnlyBuild:
     className: Ball
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LevelReset
+  - hash:
+      serializedVersion: 2
       Hash: a8cd58c1680eb5251e5604e560cf89e9
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityStandardAssets.Utility
     className: TimedObjectDestructor
+  - hash:
+      serializedVersion: 2
+      Hash: 02e6483ba585336f78a48b8cf2289aa0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MenuSceneLoader
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1389,6 +1352,12 @@ ScriptsOnlyBuild:
     className: Toggle
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PauseMenu
+  - hash:
+      serializedVersion: 2
       Hash: 8220b46879dc5e37db1b940c938f5744
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -1431,5 +1400,6 @@ ScriptsOnlyBuild:
     className: AutoMobileShaderSwitch
   platform: 19
   scenePathNames:
-  - Assets/Personal Folders/Zack's Folder/Scenes/Main menu.unity
+  - Assets/Personal Folders/Ken's Folder/Prototype (core mechanic).unity
+  - Assets/Personal Folders/Ken's Folder/Cutscene (prototype).unity
   playerPath: C:/Users/kpham14/Documents/Prototype - Cutscene/UAC Project GDS210.exe
