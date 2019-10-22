@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 16b6ad50d26dbb64b8ac3d53678e2dea
+guid: 1ec14dc507590d645a7559f171fff6df
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -11,8 +11,7 @@ TrueTypeFontImporter:
   fontName: Futura Hv BT
   fontNames:
   - Futura Hv BT
-  fallbackFontReferences:
-  - {fileID: 12800000, guid: 051ae1e8027ce554488ec22539da0e28, type: 3}
+  fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1

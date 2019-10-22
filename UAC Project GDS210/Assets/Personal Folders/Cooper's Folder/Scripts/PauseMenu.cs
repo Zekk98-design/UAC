@@ -5,7 +5,6 @@ using UnityEngine;
 public class PauseMenu : MonoBehaviour
 {
     public GameObject PauseParent;
-    public GameObject DeathMenu;
 
     // Start is called before the first frame update
     void Start()
@@ -23,10 +22,6 @@ public class PauseMenu : MonoBehaviour
         if (PauseParent.activeInHierarchy)
         {
             Time.timeScale = 0f;
-        }
-        if (PauseParent.activeInHierarchy == false && DeathMenu.activeInHierarchy == false)
-        {
-            Time.timeScale = 1f;
         }
     }
 }
