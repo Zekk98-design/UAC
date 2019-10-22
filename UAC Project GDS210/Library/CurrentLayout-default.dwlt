@@ -47,7 +47,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 494}
   m_MaxSize: {x: 14004, y: 14044}
   vertical: 0
-  controlID: 145
+  controlID: 75
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -378,19 +378,19 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Personal Folders/Cooper's Folder/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Personal Folders/Cooper's Folder/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\zdonaldson\Documents\GitHub\UAC\UAC Project GDS210
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 28340000
-    m_LastClickedID: 13352
+    m_SelectedIDs: 38420000
+    m_LastClickedID: 0
     m_ExpandedIDs: 00000000c8360000e23a0000b03b000056420000d4450000ee460000b0490000288d00002a8d00002c8d00002e8d0000308d0000328d0000348d0000368d0000388d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -540,9 +540,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 78440000
       m_LastClickedID: 0
-      m_ExpandedIDs: 70fbffff
+      m_ExpandedIDs: 08d0ffff70fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -635,11 +635,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.21630709, y: 0.5915836, z: -0.1686367, w: -0.75828034}
     speed: 2
-    m_Value: {x: -0.21489759, y: 0.5929177, z: -0.16805574, w: -0.7576443}
+    m_Value: {x: -0.21628682, y: 0.5915282, z: -0.1686209, w: -0.7582093}
   m_Size:
-    m_Target: 15.184579
+    m_Target: 168.25922
     speed: 2
-    m_Value: 15.900083
+    m_Value: 161.01361
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -702,10 +702,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -1039.5
-    m_HBaseRangeMax: 1039.5
-    m_VBaseRangeMin: -500
-    m_VBaseRangeMax: 500
+    m_HBaseRangeMin: -693
+    m_HBaseRangeMax: 693
+    m_VBaseRangeMin: -333.33334
+    m_VBaseRangeMax: 333.33334
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -714,7 +714,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -741,7 +741,7 @@ MonoBehaviour:
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 2079, y: 1017}
+  m_LastWindowPixelSize: {x: 3118.5, y: 1525.5}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
