@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - BeginGame
     - Cinemachine.CinemachineBrain
     - Cinemachine.CinemachineComposer
     - Cinemachine.CinemachinePipeline
@@ -18,7 +19,9 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.TileDragAndDropManager
     Unity.Timeline.Editor.dll:
+    - UnityEditor.Timeline.EditorClip
     - UnityEditor.Timeline.SequenceHierarchy
+    - UnityEditor.Timeline.TimelineAssetViewModel
     - UnityEditor.Timeline.TimelineWindow
     Unity.Timeline.dll:
     - UnityEngine.Timeline.AnimationTrack
@@ -96,31 +99,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10886}
     - Class: 114
-      Script: {instanceID: 11224}
+      Script: {instanceID: 11170}
     - Class: 114
-      Script: {instanceID: 11360}
+      Script: {instanceID: 11226}
     - Class: 114
-      Script: {instanceID: 11514}
+      Script: {instanceID: 11362}
     - Class: 114
-      Script: {instanceID: 11686}
+      Script: {instanceID: 11364}
     - Class: 114
-      Script: {instanceID: 11908}
+      Script: {instanceID: 11518}
     - Class: 114
-      Script: {instanceID: 12004}
+      Script: {instanceID: 11690}
     - Class: 114
-      Script: {instanceID: 12024}
+      Script: {instanceID: 11766}
     - Class: 114
-      Script: {instanceID: 12308}
+      Script: {instanceID: 11914}
     - Class: 114
-      Script: {instanceID: 12550}
+      Script: {instanceID: 12010}
     - Class: 114
-      Script: {instanceID: 12846}
+      Script: {instanceID: 12030}
     - Class: 114
-      Script: {instanceID: 12884}
+      Script: {instanceID: 12314}
     - Class: 114
-      Script: {instanceID: 53878}
+      Script: {instanceID: 12556}
     - Class: 114
-      Script: {instanceID: 66390}
+      Script: {instanceID: 12852}
+    - Class: 114
+      Script: {instanceID: 12890}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -682,6 +687,12 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
+      Hash: 01b11005c6f2567ef9e355ccfb716d93
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BeginGame
+  - hash:
+      serializedVersion: 2
       Hash: c88c4199b288356ec3eb2f0d85abc619
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityStandardAssets.CrossPlatformInput
@@ -788,6 +799,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityStandardAssets.Vehicles.Aeroplane
     className: LandingGear
+  - hash:
+      serializedVersion: 2
+      Hash: 672b41042bbcfe3478f84e06391cc41e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ExitOnClick
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -920,6 +937,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.ProBuilder.dll
     namespaceName: UnityEngine.ProBuilder
     className: ColorPalette
+  - hash:
+      serializedVersion: 2
+      Hash: 4574cd4f1140e540b1676ce6455ad45f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MainMenu
   - hash:
       serializedVersion: 2
       Hash: 97a580c59cad3623a01bbf5fb2d7fa93
@@ -1406,18 +1429,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityStandardAssets.Utility
     className: AutoMobileShaderSwitch
-  - hash:
-      serializedVersion: 2
-      Hash: 4574cd4f1140e540b1676ce6455ad45f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MainMenu
-  - hash:
-      serializedVersion: 2
-      Hash: 672b41042bbcfe3478f84e06391cc41e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ExitOnClick
   platform: 19
   scenePathNames:
   - Assets/Personal Folders/Zack's Folder/Scenes/Main menu.unity
