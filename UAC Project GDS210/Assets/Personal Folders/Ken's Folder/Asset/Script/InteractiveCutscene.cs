@@ -31,7 +31,7 @@ public class InteractiveCutscene : MonoBehaviour
     // corratie that playes the animation then sets animation to false when done
     IEnumerator Animation1(float animationLength)
     {
-        yield return new WaitForSeconds(animationLength)
+        yield return new WaitForSeconds(animationLength);
         ani.SetBool("Qpress", false);
     }
 }
